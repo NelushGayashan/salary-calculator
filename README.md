@@ -33,29 +33,25 @@ Check out the live version here: https://smart-salary-calculator.netlify.app/
 
 ## Installation and Setup
 1. Clone the repository:
-```
-bash
-```
+```bash
 `git clone https://github.com/NelushGayashan/salary-calculator.git 
 cd sri-lankan-salary-calculator`
+```
 
 2. Install dependencies:
-```
-bash
-```
+```bash
 `npm install`
+```
 
 3. Start the development server:
-```
-bash
-```
+```bash
 `npm start`
+```
 
 4. Open your browser and navigate to:
-```
-text
-```
+```bash
 `http://localhost:5173`
+```
 
 ## Usage
 1. Enter your Basic Salary in the first field
