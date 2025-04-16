@@ -27,7 +27,7 @@ const SalaryCalculator = () => {
     validationSchema: Yup.object({
       CTC: Yup.number().required("Required").positive("Must be positive"),
       EPF: Yup.number().required("Required").min(0).max(100),
-      H: Yup.number().required("Required").min(0).max(100),
+      ETF: Yup.number().required("Required").min(0).max(100),
       Tax: Yup.number().required("Required").min(0).max(100),
     }),
     onSubmit: (values) => {
